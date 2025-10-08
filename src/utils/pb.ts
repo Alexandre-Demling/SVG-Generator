@@ -4,6 +4,6 @@ var path='';
 if(import.meta.env.MODE === 'development')
     path = 'http://localhost:8090'
 else 
-    path = 'http://localhost:8084'
+    path = 'http://localhost:8085'
 const pb = new PocketBase(path) as TypedPocketBase;
 export default pb;
